@@ -340,22 +340,22 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 /* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
-function randomize(array){
-    randomArtistOrder = [];
-    const newList = array
-    const getRandomInt = function(min, max) {
-      min = Math.ceil(min);
-      min = Math.floor(max);
-      return Math.floor(Math.random() * (max - min)) + min;
-    }
-    for (let i = 0; i < 20; i++){
-      const randomArtist = newList[getRandomInt(0, (newList.length -1))];
-      newList.splice(randomArtist, 1)
-      randomArtistOrder.unshift(randomArtist); 
-    }
-    console.log(randomArtistOrder);
-  }
-  randomize(artists);
+// function randomize(array){
+//     randomArtistOrder = [];
+//     const newList = array
+//     const getRandomInt = function(min, max) {
+//       min = Math.ceil(min);
+//       min = Math.floor(max);
+//       return Math.floor(Math.random() * (max - min)) + min;
+//     }
+//     for (let i = 0; i < 20; i++){
+//       const randomArtist = newList[getRandomInt(0, (newList.length -1))];
+//       newList.splice(randomArtist, 1)
+//       randomArtistOrder.unshift(randomArtist); 
+//     }
+//     console.log(randomArtistOrder);
+//   }
+//   randomize(artists);
 
 
 //     /* Code here */
