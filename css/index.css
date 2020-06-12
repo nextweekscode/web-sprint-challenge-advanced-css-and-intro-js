@@ -132,6 +132,9 @@ button:hover{
     width:40%;
     text-align:center;
 }
+.artist a{
+    font-size:90%;
+}
 .artist img{
     width:100%;
 }
